@@ -1,0 +1,98 @@
+export const Response_OBJ= {
+    SUCCESS:0,
+    UNSUCCESS:1,
+}
+export const departmentOption=[
+  {
+    departmentId:1,
+    departmentName:'计算机科学与技术学院',
+  },
+  {
+    departmentId:2,
+    departmentName:'法学院',
+  },
+  {
+    departmentId:3,
+    departmentName:'理学院',
+  },
+  {
+    departmentId:4,
+    departmentName:'生命学院',
+  },
+  {
+    departmentId:5,
+    departmentName:'体育学院',
+  },
+  {
+    departmentId:6,
+    departmentName:'信息学院',
+  },
+]
+export const buildingOption=[
+  {
+    buildingNumber:1,
+    buildingName:'东一',
+  },
+  {
+    buildingNumber:2,
+    buildingName:'东二',
+  },
+  {
+    buildingNumber:3,
+    buildingName:'东三',
+  },
+  {
+    buildingNumber:4,
+    buildingName:'东四',
+  },
+  {
+    buildingNumber:5,
+    buildingName:'东五',
+  },
+  {
+    buildingNumber:6,
+    buildingName:'东六',
+  },
+  {
+    buildingNumber:7,
+    buildingName:'东七',
+  },  {
+    buildingNumber:8,
+    buildingName:'东八',
+  },
+  {
+    buildingNumber:9,
+    buildingName:'东九',
+  },
+  {
+    buildingNumber:10,
+    buildingName:'东十',
+  },
+  {
+    buildingNumber:11,
+    buildingName:'东十一',
+  },
+  {
+    buildingNumber:12,
+    buildingName:'东十二',
+  },
+]
+export const confirmBuilding= {
+  "男":{
+    "计算机科学与技术学院":1,
+    "法学院":3,
+    "理学院":5,
+    "生命学院":7,
+    "体育学院":9,
+    "信息学院":11
+  },
+  "女":{
+    "计算机科学与技术学院":2,
+    "法学院":4,
+    "理学院":6,
+    "生命学院":8,
+    "体育学院":10,
+    "信息学院":12
+  }
+
+}
