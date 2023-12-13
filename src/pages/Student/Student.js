@@ -86,6 +86,7 @@ class Student extends Component {
     this.setState({modalVisible:!modalVisible})
   }
   handleSubmit = (e)=>{
+    const {modalVisible}= this.state
     e.preventDefault()
     const {
       form:{getFieldsValue},
@@ -98,6 +99,7 @@ class Student extends Component {
         data
       }
     })
+    this.setState({modalVisible:!modalVisible})
   }
   handleSelectGender = (value,Option)=>{
     const { children} =Option.props
